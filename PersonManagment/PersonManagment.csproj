@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D8FA8DF9-936C-4F65-ACEB-276A96EBF34D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>PersonManagment</RootNamespace>
+    <AssemblyName>PersonManagment</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PersonManager.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="PersonManagment.Contracts\PersonManagment.Contracts.csproj">
+      <Project>{CECBA127-9378-4DE1-A487-3F19A802D7C4}</Project>
+      <Name>PersonManagment.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Repository\Repository.Contracts\Repository.Contracts.csproj">
+      <Project>{C6E2939B-DA71-42A1-9B45-6105160954AF}</Project>
+      <Name>Repository.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataClasses\DataClasses.csproj">
+      <Project>{4FECAF58-05DA-43D4-B143-0E03AD6E2EAC}</Project>
+      <Name>DataClasses</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

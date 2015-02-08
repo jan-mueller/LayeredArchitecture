@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{6CD0D72A-2A66-465D-B790-344FA80F2257}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{5FBA1EFA-5CE5-44C1-8A74-C93659FA1D1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{B496CD0F-B9D9-4F18-95AF-4B7E54D705C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonManagment", "PersonManagment\PersonManagment.csproj", "{D8FA8DF9-936C-4F65-ACEB-276A96EBF34D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonManagment.Contracts", "PersonManagment\PersonManagment.Contracts\PersonManagment.Contracts.csproj", "{CECBA127-9378-4DE1-A487-3F19A802D7C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{1AEB9535-2B68-4010-9713-914F595FE426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{930D8EB3-95D1-4F5E-9B26-D1A436F832FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Contracts", "Repository\Repository.Contracts\Repository.Contracts.csproj", "{C6E2939B-DA71-42A1-9B45-6105160954AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{140F162B-CA91-44DD-9077-F6EB24F7B54D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataClasses", "DataClasses\DataClasses.csproj", "{4FECAF58-05DA-43D4-B143-0E03AD6E2EAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{A183D2ED-DC73-4936-855B-A1A9AAA91104}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FECAF58-05DA-43D4-B143-0E03AD6E2EAC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4FECAF58-05DA-43D4-B143-0E03AD6E2EAC}.Debug|x86.Build.0 = Debug|Any CPU
+		{4FECAF58-05DA-43D4-B143-0E03AD6E2EAC}.Release|x86.ActiveCfg = Release|Any CPU
+		{4FECAF58-05DA-43D4-B143-0E03AD6E2EAC}.Release|x86.Build.0 = Release|Any CPU
+		{5FBA1EFA-5CE5-44C1-8A74-C93659FA1D1F}.Debug|x86.ActiveCfg = Debug|x86
+		{5FBA1EFA-5CE5-44C1-8A74-C93659FA1D1F}.Debug|x86.Build.0 = Debug|x86
+		{5FBA1EFA-5CE5-44C1-8A74-C93659FA1D1F}.Release|x86.ActiveCfg = Release|x86
+		{5FBA1EFA-5CE5-44C1-8A74-C93659FA1D1F}.Release|x86.Build.0 = Release|x86
+		{930D8EB3-95D1-4F5E-9B26-D1A436F832FF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{930D8EB3-95D1-4F5E-9B26-D1A436F832FF}.Debug|x86.Build.0 = Debug|Any CPU
+		{930D8EB3-95D1-4F5E-9B26-D1A436F832FF}.Release|x86.ActiveCfg = Release|Any CPU
+		{930D8EB3-95D1-4F5E-9B26-D1A436F832FF}.Release|x86.Build.0 = Release|Any CPU
+		{A183D2ED-DC73-4936-855B-A1A9AAA91104}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A183D2ED-DC73-4936-855B-A1A9AAA91104}.Debug|x86.Build.0 = Debug|Any CPU
+		{A183D2ED-DC73-4936-855B-A1A9AAA91104}.Release|x86.ActiveCfg = Release|Any CPU
+		{A183D2ED-DC73-4936-855B-A1A9AAA91104}.Release|x86.Build.0 = Release|Any CPU
+		{C6E2939B-DA71-42A1-9B45-6105160954AF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C6E2939B-DA71-42A1-9B45-6105160954AF}.Debug|x86.Build.0 = Debug|Any CPU
+		{C6E2939B-DA71-42A1-9B45-6105160954AF}.Release|x86.ActiveCfg = Release|Any CPU
+		{C6E2939B-DA71-42A1-9B45-6105160954AF}.Release|x86.Build.0 = Release|Any CPU
+		{CECBA127-9378-4DE1-A487-3F19A802D7C4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CECBA127-9378-4DE1-A487-3F19A802D7C4}.Debug|x86.Build.0 = Debug|Any CPU
+		{CECBA127-9378-4DE1-A487-3F19A802D7C4}.Release|x86.ActiveCfg = Release|Any CPU
+		{CECBA127-9378-4DE1-A487-3F19A802D7C4}.Release|x86.Build.0 = Release|Any CPU
+		{D8FA8DF9-936C-4F65-ACEB-276A96EBF34D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D8FA8DF9-936C-4F65-ACEB-276A96EBF34D}.Debug|x86.Build.0 = Debug|Any CPU
+		{D8FA8DF9-936C-4F65-ACEB-276A96EBF34D}.Release|x86.ActiveCfg = Release|Any CPU
+		{D8FA8DF9-936C-4F65-ACEB-276A96EBF34D}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5FBA1EFA-5CE5-44C1-8A74-C93659FA1D1F} = {6CD0D72A-2A66-465D-B790-344FA80F2257}
+		{D8FA8DF9-936C-4F65-ACEB-276A96EBF34D} = {B496CD0F-B9D9-4F18-95AF-4B7E54D705C2}
+		{CECBA127-9378-4DE1-A487-3F19A802D7C4} = {B496CD0F-B9D9-4F18-95AF-4B7E54D705C2}
+		{930D8EB3-95D1-4F5E-9B26-D1A436F832FF} = {1AEB9535-2B68-4010-9713-914F595FE426}
+		{C6E2939B-DA71-42A1-9B45-6105160954AF} = {1AEB9535-2B68-4010-9713-914F595FE426}
+		{4FECAF58-05DA-43D4-B143-0E03AD6E2EAC} = {140F162B-CA91-44DD-9077-F6EB24F7B54D}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Client\Client.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PersonManagment/PersonManager.cs">
+    <Files>
+      <File FileName="Client/Program.cs" Line="1" Column="1" />
+      <File FileName="DataClasses/Person.cs" Line="1" Column="1" />
+      <File FileName="Repository/PersonRepository.cs" Line="1" Column="1" />
+      <File FileName="PersonManagment/PersonManager.cs" Line="16" Column="3" />
+      <File FileName="PersonManagment/PersonManagment.Contracts/IPersonManager.cs" Line="1" Column="1" />
+      <File FileName="Repository/Repository.Contracts/IPersonRepository.cs" Line="1" Column="1" />
+      <File FileName="DependencyInjection/Mappings.cs" Line="1" Column="1" />
+      <File FileName="DependencyInjection/packages.config" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="Client/Program.cs" line="24" offsetX="420" offsetY="414" expression="allAdults" liveUpdate="False" />
+    <Watch file="Client/Program.cs" line="24" offsetX="420" offsetY="414" expression="person" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>
